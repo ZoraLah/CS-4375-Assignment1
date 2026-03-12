@@ -27,3 +27,8 @@ python rnn.py --hidden_dim [hidden_dim parameter]  --epochs [epoch_parameter] --
 ```
 
 After training is completed, a learning curve plot will be automatically created and saved into the current directory (`[model]_hd[hidden_dim parameter]_learning_curve.png`)
+
+## Note
+`word_embedding.pkl` and the `Data_Embedding/` folder are not included in this 
+repository due to file size limits. Please download them from eLearning and place 
+them in the root directory before running.
